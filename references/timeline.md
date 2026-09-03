@@ -190,9 +190,64 @@
 - 从汽车跨入教育、家庭、安防、服务等机器人场景。
 - 研究意义：再次出现“跨边界 → 统一架构 → 新类别 → 生态扩展”的老结构。
 
+## 2026-07 — 从产品生态进一步走向“季度战役 + 场景闭环”
+
+### 7 月初：Robotics Q3 Campaign
+
+- 开启 Robotics Q3 Campaign，把季度经营直接命名为战役。
+- 用“One Brain, Multiple Forms / Multiple Forms, Multiple Capabilities”统一机器人形态。
+- 聚焦教育、工业、巡检安防等现实场景，并强调更快形成闭环商业模式。
+
+### 7 月中：Data Factory / Four-Core Full-Stack AI
+
+- Data Factory 开始出现更明确的客户订单和数据小时量级。
+- 同时推出 Q3 “Four-Core Full-Stack AI” Robotics Practical Deployment Campaign。
+- 研究意义：生态化反逐步从“产品协同”迁移为“终端部署 → 数据 → AI → 商业收入”的飞轮。
+
+### 7 月下旬：EAI-EDU Nationwide Replication at Scale
+
+- 从机器人夏令营试点，升级到全国复制规模化战略。
+- 研究意义：出现稳定的 **Pilot → Replication → Scale** 增长叙事。
+- 风险校验：一次成功试点只能证明场景可行性，不能自动证明全国商业模式已经成立。
+
+## 2026-08 — Result-First 周报与财务证明权重上升
+
+### 8 月 9 日：Weekly Report Issue 67
+
+- 开头直接列三项 key highlights。
+- Nasdaq 最低股价持续上市合规恢复被放在第一位。
+- 同期发布 BLOS 远程操作与多机器人控制平台 V1.0，并预告 Built in USA 上下游伙伴大会。
+- 研究意义：资本合规、技术和生态伙伴同时进入 Top Results，现代风格明显“结果先行”。
+
+### 8 月 17 日：Weekly Report Issue 68
+
+- 开头强调 Q2 创纪录收入、机器人正毛利规模增长、债务下降。
+- 研究意义：2026 版人物沟通不能只讲梦想和技术，**Revenue / Gross Margin / Debt / Compliance** 已成为证明链的重要部分。
+
+### 8 月 23 日：全国渠道合作
+
+- 新 FF Par 协议被接入全美渠道和 Built in USA 生态大会。
+- 节点完成后立即预告下一场可验证活动，持续形成事件链。
+
+### 8 月 30/31 日：中东首单 + RoboShare
+
+- FF 在中东完成首笔机器人销售与交付，共 6 台。
+- 把事件定义为从 0 到 1 的突破。
+- 同时回顾 8 月 26 Built in USA 合作伙伴大会、三阶段 Acceleration Program、RoboShare，并预告 9 月新品和下一场大会。
+- 研究意义：现代固定结构进一步清晰：
+
+```text
+硬结果
+→ 战略命名/机制
+→ 分阶段路线图
+→ 下一事件日期
+```
+
+- 详细材料：`references/research/08-weekly-updates-jul-aug-2026.md`
+
 # 长周期总结
 
-从 2014 到 2026，载体变化极大，但以下结构持续存在：
+从 2014 到 2026 年 8 月，载体变化极大，但以下结构持续存在：
 
 ```text
 未来趋势
@@ -210,7 +265,8 @@
 ```text
 2014–2016：梦想 / 生态 / 破界 / 全球化
 2017–2023：新物种 / 坚持 / 里程碑 / 共创
-2024–2026：Bridge / EAI / 股东优先 / 战役 / KPI / 周报 / 数据飞轮
+2024–2025：Bridge / EAI / 股东优先 / 战役 / KPI / 周报
+2026 H2：Result-First / Revenue / Gross Margin / Compliance / Campaign / Data Flywheel / Event Chain
 ```
 
 因此 Skill 必须支持“时期感”，不能用一套 2015 年词汇覆盖全部时间。
