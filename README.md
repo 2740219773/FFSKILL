@@ -13,13 +13,13 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 → 时期路由
 → 稳定思维模型
 → 行动启发式
-→ Failure Shadow
+→ Failure Shadow / Stage Gate
 → 承诺置信度路由
-→ 事实状态机
+→ V/C/M/O 事实状态机
 → 回归测试
 ```
 
-核心 `SKILL.md` 已做减法重构，详细证据全部留在 `references/`，核心文件只保留真正会改变分析和输出的规则。
+核心 `SKILL.md` 做减法，详细证据留在 `references/`；核心文件只保留真正会改变分析和输出的规则。
 
 ---
 
@@ -44,8 +44,8 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 2010 资源约束 + 终端趋势
 → 2011/2012 机顶盒/多屏
 → 2012 颠覆日：平台+内容+终端+应用
-→ 2013 超级电视产品化
-→ 2014 生态协同/生态组织
+→ 2013 超级电视产品化 + CP2C 用户共创
+→ 2014 生态协同/生态组织 + 五大利器
 → 2015 超级手机/开放闭环/生态化反
 → 2016 破界/硬件免费
 → 2016H2 危机重构
@@ -53,7 +53,7 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 
 所以 2015 的“为梦想窒息时代”不是突然出现，而是多年业务逻辑逐步被概念化、人格化和传播化的峰值。
 
-详见 `references/research/37-pre-ecosystem-roots-2010-2012.md`。
+详见 `references/research/37-pre-ecosystem-roots-2010-2012.md`、`references/research/37-origin-chain-2012-2014-product-to-organization.md`。
 
 ---
 
@@ -61,13 +61,13 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 
 ## 1. 2012–2014：源头形成
 
-`未来十年 / 梦想 / 超级电视 / 平台+内容+终端+应用 / 垂直整合 / 协同`
+`未来十年 / 梦想 / 超级电视 / CP2C / 用户参与 / 平台+内容+终端+应用 / 垂直整合 / 协同`
 
-特点：相对理性、产品和商业模式证明权重高。
+重点：类别重定义、产品/商业模式证明、用户共创和组织跟随战略。
 
 ## 2. 2015–2016 H1：超级手机 / 为梦想窒息巅峰
 
-`时代选择 / 旧范式 / 开放闭环 / 生态化反 / 破界 / 硬件免费 / 疯狂 / 梦想`
+`时代选择 / 旧范式 / 开放闭环 / 生态化反 / 破界 / 硬件免费 / 乐迷 / 疯狂 / 梦想`
 
 核心结构：
 
@@ -77,6 +77,7 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 → A/B 两条路的结构缺陷
 → 第三范式 C
 → 命名
+→ 用户共创
 → 产品作为新规则第一件证据
 → 商业模式
 → 用户价值
@@ -86,13 +87,13 @@ V0.7 已经从“搜集资料”进入“运行模型”阶段：
 
 ## 3. 2016 H2–2017：危机重构
 
-`海水与火焰 / 节奏过快 / 战线过长 / 现金 / 聚焦 / 第二阶段 / All In`
+`海水与火焰 / 节奏过快 / 战线过长 / 现金 / 供应链 / 聚焦 / 第二阶段`
 
-重点：方向、路径、节奏、执行分层判断。
+重点：终局、路径、节奏、执行分层，并允许终局假设本身错误。
 
 ## 4. 2017–2023：FF 新物种与长周期里程碑
 
-`New Species / Third Internet Living Space / SOP / 下线 / 交付 / 共创`
+`New Species / Third Internet Living Space / SOP / 下线 / 交付 / User/Developer Co-Creation`
 
 ## 5. 2024–2026：结果化经营
 
@@ -110,7 +111,7 @@ Result
 
 ---
 
-# 十个核心模型
+# 十一个核心模型
 
 1. **Future-Back** — 用未来终局倒推当前能力和第一验证点。
 2. **Category / Boundary Redefinition** — 先重新定义产品和竞争单位。
@@ -119,36 +120,185 @@ Result
 5. **Naming Creates Strategy** — 用新概念压缩复杂关系并组织产品/战略。
 6. **Numbered Architecture** — 自然聚类后编号，并持续按同一结构复盘。
 7. **Founder-Led Product Definition** — 第一责任人掌握产品灵魂和用户价值。
-8. **Distributed Execution + Centralized Inflection** — 日常执行分布式，极少数不可逆战略拐点提高创始人决断权。
+8. **Distributed Execution + Centralized Inflection** — 日常执行分布式，极少数不可逆战略拐点提高第一责任人决断权。
 9. **Milestone as Proof** — 用产品/工程/交付逐层证明长期叙事。
-10. **Crisis Reframing** — 危机中区分终局、路径、节奏、执行，同时允许终局假设本身错误。
+10. **Crisis Reframing** — 危机中区分终局、路径、节奏、执行，并允许终局假设本身错误。
+11. **User Co-Creation Loop** — 用户是现实信号源和共同迭代者，但共创必须真正影响产品并被使用/付费结果验证。
 
 ---
 
-# V0.7 新机制一：Failure Shadow
+# 新增核心：用户共创不是 FF 新发明
 
-完整研究乐视高光和崩塌后，一个人物优势必须同时带着它的失败阴影。
+2013 年 CP2C 已经把用户参与设计成全流程闭环：
+
+```text
+产品设计
+→ 研发
+→ 传播
+→ 销售
+→ 售后
+→ 运营
+→ 再回产品设计
+```
+
+同年“超级电视”材料反复出现“千万人不满、千万人参与、千万人研发、千万人使用、千万人传播”。2015 乐迷继续承担反馈和传播角色；2023 FF 又把它制度化成 User / Developer Co-Creation、Mission Farad 和 Owner Developer Co-Creation。
+
+因此高置信长期模式不是简单“重视用户”，而是：
+
+```text
+用户痛点/行为
+→ 产品定义
+→ 快速迭代
+→ 使用数据
+→ 社区反馈
+→ 下一轮产品
+```
+
+同时强制防止：
+
+```text
+粉丝投票 = 产品战略
+社区热度 = 市场需求
+营销活动 = 产品共创
+创始人自己使用 = 普通用户验证
+```
+
+详见 `references/research/40-user-co-creation-from-super-tv-to-ff.md`。
+
+---
+
+# “五大利器”被改造成运行循环
+
+2013–2014 多个当期资料反复出现：
+
+```text
+用户 / 前瞻 / 快速 / 协同 / 极致
+```
+
+它们不是五个孤立 KPI，而是循环：
+
+```text
+用户信号
+→ 前瞻判断
+→ 快速获得证据
+→ 跨系统协同交付
+→ 关键体验/经济结果
+→ 再回用户
+```
+
+V0.7 将它转换成：
+
+```text
+U — User Signal
+F — Foresight
+S — Speed to Evidence
+C — Cross-System Ownership
+E — Experience / Economic Proof
+```
+
+两个关键修正：
+
+> **快速 = 快速获得证据，不是快速扩张。**
+
+> **极致 = 关键体验明显超预期，同时用户愿意持续付费。**
+
+详见 `references/research/41-five-tools-operating-loop-user-foresight-speed-collaboration-extreme.md`。
+
+---
+
+# 资源弱势为什么会导向“前瞻 + 早进入 + All In”
+
+2013–2015 本人公开解释中有一条较清晰竞争逻辑：
+
+```text
+资源比巨头少
+→ 不能等市场成熟后按旧规则正面竞争
+→ 必须看得更远、走得更早、走得更快
+→ 抢下一代规则的时间窗口
+```
+
+V0.7 的历史修正版是：
+
+```text
+资源弱势
+→ 找下一代竞争单位
+→ 检查能力邻接
+→ 先于共识做廉价验证
+→ 验证成立后再集中资源
+→ 抢时间窗口
+```
+
+不是“没人相信，所以直接 All In”。
+
+详见 `references/research/39-resource-disadvantage-speed-and-early-entry.md`。
+
+---
+
+# 早期表达也开始结构化标注
+
+除 34 期现代 Weekly Report 外，现已把 2012–2016 的 12 个代表历史样本按结构人工标注：
+
+- Era First
+- Old Paradigm
+- Category Redefinition
+- Third Paradigm
+- Ecosystem Chain
+- Business Model Reframe
+- Numbered Architecture
+- Question Reframing
+- Mission / Dream
+- Reality / Reflection
+
+初步结果显示：
+
+- Ecosystem Chain：11/12 明显；
+- Numbered Architecture：9/12 明显；
+- Era First：8/12 明显；
+- Mission/Dream：8/12 明显；
+- 真正明确的 Third Paradigm 高峰集中在 2015–2016 H1；
+- Reality/Reflection 在 2016 H2 明显前移。
+
+所以“国内时期都只是梦想和宏大叙事”也不准确。
+
+详见 `references/research/38-early-era-structure-annotation-dataset.md`。
+
+---
+
+# Failure Shadow + 五个 Stage Gate
+
+完整研究乐视高光和危机后，一个人物优势必须同时带着失败阴影。
 
 | 进攻模型 | 可能翻转成 | 制动器 |
 |---|---|---|
 | Future-Back | Future Overhang | Runway + 不可逆投入 |
-| Ecosystem | Resource Dilution | Reverse-Value Gate |
-| 跨界引才 | Integration Debt | 90天整合结果 |
-| 矩阵组织 | Coordination Explosion | 唯一结果Owner |
-| Founder-Led | Founder Bottleneck | 战略/运营分层 |
+| Ecosystem | Resource Dilution | Reverse-Value + Focus Gate |
+| 用户共创 | Vocal Minority Bias | 行为数据 + 非粉丝样本 |
+| 提前进入 | Premature Expansion | Adjacency + MVP Gate |
+| 快速 | Speed Illusion | Critical Path Gate |
+| 跨界引才 | Integration Debt | 90 天整合结果 |
+| 矩阵组织 | Coordination Explosion | 唯一结果 Owner |
+| Founder-Led | Founder Bottleneck | 决策层级路由 |
 | 非共识决断 | Falsification Failure | 最小实验 + 失败阈值 |
 | 补贴硬件 | Cash Conversion Trap | 保守 LTV/CAC |
 | 叙事连续 | Sunk-Cost Shield | 终局证伪指标 |
 | 阶段命名 | Reality Repackaging | 先列上一阶段未完成项 |
 | 生态关联主体 | Governance Risk | 关联交易/现金流/审计 |
 
+统一运行 Gate：
+
+1. Cash Runway
+2. Focus / Critical Path
+3. Organizational Absorption
+4. Supply / Operational Capacity
+5. Independent Validation
+
 详见 `references/research/33-leeco-failure-antipatterns.md`。
 
 ---
 
-# V0.7 新机制二：组织操作系统
+# 组织操作系统
 
-2014–2016 的资料表明，正确模型不是简单“贾跃亭独断”。
+2014–2017 的资料表明，正确模型不是简单“贾跃亭独断”。
 
 更接近：
 
@@ -157,22 +307,19 @@ Result
 → 扁平、网格、项目 Owner、核心团队协同
 
 极少数重大不可逆拐点
-→ 创始人提高最终决断权
-```
+→ 第一责任人提高最终决断权
 
-2014 内部材料还明确把决策机制从 CEO 主导向核心团队主动创新、集体决策描述为组织成熟方向；2016 本人则说明只有“极个别重要拐点”由他决定。
+关键资本/生态控制点
+→ 只有确实影响用户入口、数据、产品终局或系统协同时才高成本保留
+```
 
 详见 `references/research/34-organization-os-2014-2016.md`。
 
 ---
 
-# V0.7 新机制三：Commitment Confidence Router
+# Commitment Confidence Router
 
 历史不能简单归纳成“都兑现”或“全是 PPT”。
-
-超级电视和手机早期存在真实的阶段目标兑现；但汽车 2018 量产时间表长期延后，资金危机也不是一笔大额融资就真正解决。
-
-因此承诺必须按项目类型路由：
 
 ```text
 A 相邻能力产品
@@ -200,20 +347,21 @@ D 长周期重资产/硬科技
 
 ---
 
-# 一手历史源已经重新分级
+# 一手历史源分级
 
-当前重要校正：
+重要校正：
 
 - **2011“生态战略正式起航”**：目前只有 2015 本人回溯，保持 B 级，不能伪装成找到 2011 原始稿。
-- **2012“颠覆日”**：已找到乐视网 2012 年三季度正式材料，确认进军电视以及平台+内容+终端+应用模式。
+- **2012“颠覆日”**：已有乐视网 2012 年三季度正式材料，确认进军电视以及平台+内容+终端+应用模式。
 - **2012 梦想文化**：有当期员工邮件。
-- **2014 生态协同/组织风险**：有较完整员工信。
+- **2013 CP2C/超级电视**：有当期发布和采访材料。
+- **2014 生态协同/组织风险**：有较完整员工信和近同期组织报道。
 
 详见 `references/research/36-origin-source-verification-2011-2014.md`。
 
 ---
 
-# 历史发布会已经逐场拆解
+# 历史发布会逐场拆解
 
 ```text
 2013 超级电视
@@ -229,17 +377,15 @@ D 长周期重资产/硬科技
 → 29-launch-anatomy-2016-boundary-breaking.md
 ```
 
-另有非产品型两小时演讲研究：
+另有非产品型长演讲：`32-long-speech-anatomy-2015-2016.md`。
 
-`32-long-speech-anatomy-2015-2016.md`
-
-其核心发现是长演讲经常使用：
+长演讲常使用：
 
 ```text
 历史周期
 → 新理论
 → 公司/产品实践
-→ 再回到产业/中国/未来意义
+→ 再回产业/中国/未来意义
 ```
 
 而不是把短答简单扩成两小时。
@@ -253,7 +399,7 @@ D 长周期重资产/硬科技
 - Next Milestone：34/34
 - Named Framework：31/34 明显
 - Numbered Architecture：30/34 明显
-- Conditional Language：25/34 明显、其余弱出现
+- Conditional Language：25/34 明显，其余弱出现
 - Reflection：大部分不出现，问题触发
 - War Language：明显出现比例远低于早期直觉
 
@@ -266,8 +412,6 @@ tests/test_analyze_corpus.py
 .github/workflows/test.yml
 ```
 
-GitHub Actions 会自动执行语法检查、回归测试和合成语料分析。
-
 ---
 
 # 测试体系
@@ -278,8 +422,10 @@ tests/
 ├─ modern-weekly-tests.md
 ├─ leeco-era-tests.md
 ├─ domestic-era-deep-tests.md
+├─ governance-stage-gate-tests.md
 ├─ v07-runtime-tests.md
-└─ test_analyze_corpus.py
+├─ test_analyze_corpus.py
+└─ test_skill_structure.py
 ```
 
 重点防止：
@@ -289,10 +435,14 @@ tests/
 - 99% 反对被当成正确证据；
 - 硬件免费机械迁移；
 - 生态没有双向增强；
+- 用户共创退化成粉丝投票；
+- 快速退化成快速铺战线；
 - 融资到账被写成危机解决；
 - 销量达标被写成商业模型闭环；
 - 2015 与 2026 只有词汇区别；
 - 每个业务都被称为 All-In 战役。
+
+GitHub Actions 自动执行语法检查、语料工具测试、核心 Skill 结构测试和引用完整性检查。
 
 ---
 
