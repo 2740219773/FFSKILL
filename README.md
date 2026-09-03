@@ -4,15 +4,17 @@
 
 > 目标不是做“贾跃亭语录生成器”，也不是玩网络梗，而是把 2014–2026 年公开可观察的长期模式整理成可验证、可推演、可复用、能被反证修正的人物 Skill。
 
-## 当前版本：V0.4 — Evidence + Decision + Tension
+## 当前版本：V0.5 — Corpus + Quantification
 
-V0.4 已从“语言模仿”继续推进到四层模型：
+V0.5 在 V0.4“证据 + 决策 + 张力”的基础上，正式加入**连续周报标注、量化指标规范和可复算分析工具**。
 
 ```text
 公开原始材料
 → 表达/概念结构
 → 真实决策启发式
 → 每个优势模型的对偶风险
+→ 连续语料标注
+→ 可复算量化统计
 ```
 
 当前资料时间线更新至 **2026 年 8 月 30/31 日**。
@@ -39,7 +41,8 @@ FFSKILL 要求：
 - 什么只是长期模式；
 - 什么是基于模式做的新情境推演；
 - 什么只是计划、什么已经完成；
-- 哪些人物优势在什么条件下会反过来变成风险。
+- 哪些人物优势在什么条件下会反过来变成风险；
+- 哪些风格特征只是我们的直觉，哪些已经被连续语料支持。
 
 ## 三种使用方式
 
@@ -101,8 +104,6 @@ FFSKILL 要求：
 
 ## 核心张力：人物优势不是无条件正确
 
-V0.4 新增“模型 + 对偶风险”机制：
-
 | 人物模型 | 同时检查 |
 |---|---|
 | Future-Back | 现金、时间、工程路径 |
@@ -113,7 +114,7 @@ V0.4 新增“模型 + 对偶风险”机制：
 | Milestone | 是否把阶段节点误当业务结果 |
 | High Conviction | 未来事实是否保留条件语 |
 
-2016 年本人对“节奏过快、战线过长、资源有限”的公开反思，与 2025 年再次回应“双飞轮/双桥会不会失焦”，使“生态协同 vs 资源聚焦”成为一个非常重要的跨时期张力。
+2016 年本人对“节奏过快、战线过长、资源有限”的公开反思，与 2025 年再次回应“双飞轮/双桥会不会失焦”，使“生态协同 vs 资源聚焦”成为非常重要的跨时期张力。
 
 详见 `references/research/14-core-tensions.md`。
 
@@ -133,29 +134,94 @@ V0.4 新增“模型 + 对偶风险”机制：
 
 默认“现在的贾跃亭”采用第三阶段，而不是只复刻早期“梦想 + 生态”。
 
-## Weekly Report 量化与扩展验证
+## V0.5：34 期 Weekly Report 人工标注
 
-第一轮 11 期代表样本的 pilot 编码显示：
+目前已把 2025-05 至 2026-08 的 **34 期代表性 Weekly Report** 做成结构化标注表。
 
-- Named Framework：11/11；
-- Numbered Architecture：11/11；
-- Strategic Uplift：11/11；
-- Next Milestone：11/11；
-- Result-first：9/11；
-- Reflection / Gap：5/11；
-- 严格 Battle / War 隐喻：2/11。
+第一版人工编码结果：
 
-随后又补充 2025 Q4–2026 Q2/Q3 的更多周报做结构验证，第一轮结论没有被推翻。
+| 特征 | 明显出现 Y | 弱/部分 P | 未观察 N |
+|---|---:|---:|---:|
+| Result First | 22 | 10 | 2 |
+| Numbered Architecture | 30 | 4 | 0 |
+| Named Framework | 31 | 3 | 0 |
+| Conditional Language | 25 | 9 | 0 |
+| Next Milestone | 34 | 0 | 0 |
+| Reflection | 4 | 3 | 27 |
+| War Language | 5 | 9 | 20 |
+| Financial / Business Proof | 14 | 17 | 3 |
 
-因此核心 Skill 已做两个重要修正：
+因此目前最值得进入现代 Skill 默认权重的是：
 
-1. **战争/战役语言是场景触发，不是每周口癖。**
-2. **Crisis Reframing 只有真实延期/问题时才触发。**
+```text
+下一节点
+> 命名框架
+> 编号架构
+> V/C/M/O + 条件语
+> 当前结果 → 战略意义
+> 经营/交付/合规证明
+```
 
-详见：
+而不是：
 
-- `09-pilot-quantitative-analysis.md`
-- `11-expanded-weekly-sample.md`
+```text
+战争语言
+悲壮叙事
+梦想口号
+```
+
+后面三类应按场景触发。
+
+详见 `references/research/15-weekly-report-annotation-dataset.md`。
+
+## 可复算的量化规范
+
+V0.5 新增 `references/research/16-quantitative-metrics-spec.md`，定义了：
+
+- I / we 第一人称密度；
+- High Conviction 确定性语言；
+- Conditionality 条件语；
+- Milestone / Next Event；
+- Financial / Business Proof；
+- War / Sprint 隐喻；
+- Reflection；
+- Naming；
+- Numbered Architecture；
+- `Result → Meaning → Next Milestone` 结构链；
+- `Not A, But B` 重定义句法。
+
+同时规定必须剔除重复的 Safe Harbor、公司介绍和联系人模板，避免上市公司法律文本污染人物语言统计。
+
+## 可运行分析工具
+
+新增：
+
+```text
+tools/analyze_corpus.py
+```
+
+纯 Python 标准库，无第三方依赖。输入 JSONL：
+
+```json
+{"id":"W001","date":"2025-05-04","period":"2025H1","type":"weekly","source":"...","text":"..."}
+```
+
+运行：
+
+```bash
+python tools/analyze_corpus.py data/weekly_corpus.jsonl \
+  --json-out reports/corpus-analysis.json \
+  --md-out reports/corpus-analysis.md
+```
+
+脚本会输出文章级指标、总体统计和分时期统计。
+
+仓库同时提供：
+
+- `data/weekly_corpus.example.jsonl` — 合成示例，不复制第三方完整讲话；
+- `tests/test_analyze_corpus.py` — 统计工具回归测试。
+
+当前 5 项单元测试已验证通过，覆盖：Safe Harbor 截断、条件语、编号结构、结果→意义→下一节点、战争语言独立性。
 
 ## V/C/M/O 事实状态机
 
@@ -195,23 +261,11 @@ One Brain Multiple Forms / Data Factory / Device-Data-Brain / RoboShare
 
 ## 找到的现有开源参考
 
-检索到：
+检索到 `zhanpengumich/jia-yueting-skill`。
 
-`zhanpengumich/jia-yueting-skill`
+它的优势是 Trigger、Agentic Protocol、角色表现力和 Few-shot 都很明确，也单独讨论“内在张力/诚实边界”。
 
-它的优势是：
-
-- Trigger 清晰；
-- Agentic Protocol 明确；
-- 角色表现力强；
-- 有“内在张力/诚实边界/Few-shot”。
-
-但它也展示了强角色模板的典型风险：
-
-- 网络梗容易被当成本人事实；
-- “永远不会承认战略错误”类绝对规则不可证伪；
-- 情绪和先行者叙事容易压过结果状态；
-- 第一人称角色扮演容易把推演写成真实经历。
+但它也展示了强角色模板的典型风险：网络梗容易被当成本人事实、“永远不会承认战略错误”类绝对规则不可证伪、情绪叙事容易压过事实状态、第一人称扮演容易把推演写成真实经历。
 
 FFSKILL 借鉴它的组织方式，但不照搬这些事实风险。
 
@@ -223,6 +277,10 @@ FFSKILL 借鉴它的组织方式，但不照搬这些事实风险。
 FFSKILL/
 ├─ SKILL.md
 ├─ README.md
+├─ data/
+│  └─ weekly_corpus.example.jsonl
+├─ tools/
+│  └─ analyze_corpus.py
 ├─ references/
 │  ├─ methodology.md
 │  ├─ evidence-rules.md
@@ -244,10 +302,13 @@ FFSKILL/
 │     ├─ 11-expanded-weekly-sample.md
 │     ├─ 12-concept-genealogy-and-rhetoric.md
 │     ├─ 13-existing-skill-review.md
-│     └─ 14-core-tensions.md
+│     ├─ 14-core-tensions.md
+│     ├─ 15-weekly-report-annotation-dataset.md
+│     └─ 16-quantitative-metrics-spec.md
 └─ tests/
    ├─ fidelity-tests.md
-   └─ modern-weekly-tests.md
+   ├─ modern-weekly-tests.md
+   └─ test_analyze_corpus.py
 ```
 
 ## 研究原则
@@ -261,18 +322,20 @@ FFSKILL/
 5. 语言和实际行动是否互相支持；
 6. 是否存在反例或时期变化；
 7. 是否分清计划和结果；
-8. 对应优势是否同时检查了反作用。
+8. 对应优势是否同时检查了反作用；
+9. 人工直觉是否能被语料统计复核。
 
-人物 Skill 蒸馏方法参考 `alchaincyf/nuwa-skill`，并针对贾跃亭增加了承诺结果状态机、时期路由、真实决策记录、核心张力、上市公司条件语言和周报结构编码。
+人物 Skill 蒸馏方法参考 `alchaincyf/nuwa-skill`，并针对贾跃亭增加了承诺结果状态机、时期路由、真实决策记录、核心张力、上市公司条件语言、周报结构编码和可复算量化工具。
 
-## 下一阶段：V0.5
+## 下一阶段：V0.6
 
-接下来重点不是继续堆概念，而是做真正的语料工程：
+重点从“人工标注”继续升级到“正文语料统计”：
 
-- Weekly Report 从代表样本扩到 30–50 期以上；
-- 做 I/we、确定性词、条件词、milestone、next、编号密度、战争隐喻等词法统计；
+- 将 30–50 期以上周报按统一 JSONL Schema 整理；
+- 优先使用用户拥有权限或可合法处理的正文，不在公共仓库大规模复制第三方受版权保护全文；
+- 自动生成 2025H1 / 2025H2 / 2026H1 / 2026H2 对比报告；
+- 检验 `Next Milestone > 80%`、`Numbered Architecture > 70%` 等可证伪假设；
 - 建“承诺 → 变更 → 实际兑现日期”结构化数据库；
-- 搜集更多公开视频/逐字稿，减少对公司新闻稿的依赖；
 - 增加 2015 vs 2026 Contrast-shot；
 - 用陌生项目做盲测，检查删掉姓名后是否仍能认出人物模型。
 
