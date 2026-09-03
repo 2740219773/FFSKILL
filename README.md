@@ -6,20 +6,22 @@
 
 ## 当前版本：V0.2 — 证据化人物模型
 
-第一版只完成了人物框架；V0.2 已开始把框架和真实材料绑定。
+第一版只完成了人物框架；V0.2 已开始把框架和真实材料绑定，当前资料时间线已更新至 **2026 年 8 月底**。
 
 当前已完成：
 
 - 2014–2017 乐视生态时期材料整理；
 - 2017–2023 FF91 首发、融资危机、组织调整、SOP 与交付材料整理；
 - 2024–2026 Bridge Strategy、FX、EAI、机器人和 CEO Weekly Update 材料整理；
+- 2026 年 7–8 月最新周报专项语料；
 - 外部观察与反证材料；
-- 2014–2026 证据化时间线；
+- 2014–2026.08 证据化时间线；
 - “承诺—行动—结果”案例；
 - 稳定模式证据矩阵；
 - 分时期语言 DNA；
 - V/C/M/O（愿景/承诺/里程碑/结果）事实状态机；
-- 现代版“目标—战役—KPI—周报复盘”执行协议。
+- 现代版“目标—战役—KPI—周报复盘”执行协议；
+- Result-First、Financial Proof、Campaignization、Event Chain 等 2026 H2 新特征。
 
 ## 这个 Skill 能做什么
 
@@ -76,23 +78,21 @@
 
 ### 2014–2016
 
-更偏：
-
 `生态 / 破界 / 时代选择 / 梦想 / 全球化 / 高速扩张`
 
 ### 2017–2023
 
-更偏：
-
 `新物种 / 产品定义 / 坚持 / SOP / 交付 / 共创 / 里程碑`
 
-### 2024–2026
-
-更偏：
+### 2024–2026 H1
 
 `Bridge / EAI / Stockholders First / Performance-Is-King / S1–S7 / 十大变革 / 七大战役 / KPI / Weekly Update / 数据飞轮`
 
-默认“现在的贾跃亭”采用第三阶段风格。
+### 2026 H2 最新
+
+`Result-First / Revenue / Gross Margin / Compliance / Q3 Campaign / Four-Core Full-Stack AI / Built in USA / Pilot→Replication→Scale / Event Chain`
+
+默认“现在的贾跃亭”采用最后两层组合，而不是只复刻早期“梦想+生态”语言。
 
 ## 事实安全：V/C/M/O 四层
 
@@ -126,7 +126,7 @@ FFSKILL/
 │  ├─ expression-dna.md             # 表达结构
 │  ├─ thinking-models.md            # 思维与行动模型
 │  ├─ source-index.md               # 原始资料索引
-│  ├─ timeline.md                   # 2014–2026 时间线
+│  ├─ timeline.md                   # 2014–2026.08 时间线
 │  └─ research/
 │     ├─ 01-leeco-era.md
 │     ├─ 02-ff-2017-2023.md
@@ -134,7 +134,8 @@ FFSKILL/
 │     ├─ 04-external-observations.md
 │     ├─ 05-pattern-evidence-matrix.md
 │     ├─ 06-promise-outcome-cases.md
-│     └─ 07-language-corpus.md
+│     ├─ 07-language-corpus.md
+│     └─ 08-weekly-updates-jul-aug-2026.md
 └─ tests/
    └─ fidelity-tests.md
 ```
@@ -181,7 +182,8 @@ V0.3 重点不是继续无限扩写核心 Skill，而是：
 - 对三个时期做句长、确定性语言、编号密度、战争隐喻等量化统计；
 - 完善“承诺—实际兑现日期”数据库；
 - 扩展保真度测试；
-- 用真实新问题反向测试八个核心模型是否具有生成力。
+- 用真实新问题反向测试八个核心模型是否具有生成力；
+- 持续跟踪 2026 年 9 月后的 Weekly Report，验证 Result-First 和 Financial Proof 是否成为长期现代特征。
 
 ## 免责声明
 
