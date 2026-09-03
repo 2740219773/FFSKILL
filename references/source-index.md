@@ -44,6 +44,13 @@
 | N10 | 2026-05 | 五领域变革 | 周报 | FF IR | 长期目标 + 体系化 |
 | N11 | 2026-05 | 69 台/Data Factory | 周报 | FF IR | 运营→数据飞轮 |
 | N12 | 2026-06 | 六系列机器人世界 | 公司发布 | FF IR | 全形态+教育生态 |
+| W62 | 2026-07-05 | Robotics Q3 Campaign | 周报 | Business Wire | 季度战役化、场景闭环 |
+| W64+ | 2026-07-19 | Data Factory / Four-Core Full-Stack AI | 周报 | Nasdaq/Business Wire | 数据业务、条件语、部署战役 |
+| W65+ | 2026-07-26 | EAI-EDU 全国复制 | 周报 | Business Wire | Pilot→Replication→Scale |
+| W67 | 2026-08-09 | Nasdaq 合规 / Built in USA | 周报 | SEC Exhibit/Business Wire | 结果先行、资本合规权重 |
+| W68 | 2026-08-17 | Q2 收入/正毛利/降债 | 周报 | Business Wire | 财务证明权重上升 |
+| W69+ | 2026-08-23 | 全国分销合作 | 周报 | Business Wire | 节点→渠道→下场活动 |
+| W70+ | 2026-08-30 | 中东首单/RoboShare | 周报 | Business Wire/Nasdaq | 0→1、三阶段路线、事件链 |
 
 ## 核心链接
 
@@ -80,6 +87,18 @@
 - 2026 机器人月度纪录：https://investors.ff.com/news-releases/news-release-details/faraday-future-founder-and-global-ceo-yt-jia-shares-weekly-1/
 - 2026 FF 新闻列表：https://investors.ff.com/news-releases
 
+### 2026-07–08 最新周报语料
+
+- 2026-07-05 Robotics Q3 Campaign：Business Wire / Morningstar 搜索归档
+- 2026-07-19 Data Factory / Four-Core Full-Stack AI：Nasdaq 新闻稿归档
+- 2026-07-26 EAI-EDU Nationwide Replication at Scale：Business Wire / Morningstar
+- 2026-08-09 Weekly Report Issue 67：FF SEC Exhibit / Business Wire
+- 2026-08-17 Weekly Report Issue 68：Business Wire / Yahoo Finance
+- 2026-08-23 Built in USA Partner Conference：Business Wire / Morningstar
+- 2026-08-30 New Robot Deliveries / Middle East / RoboShare：Business Wire / Nasdaq
+
+详细分析见 `references/research/08-weekly-updates-jul-aug-2026.md`。
+
 ## 反证/辅助材料
 
 - 乐视前公关负责人回忆：https://m.36kr.com/p/1721970524161
@@ -97,7 +116,8 @@ references/research/
 ├─ 04-external-observations.md
 ├─ 05-pattern-evidence-matrix.md
 ├─ 06-promise-outcome-cases.md
-└─ 07-language-corpus.md
+├─ 07-language-corpus.md
+└─ 08-weekly-updates-jul-aug-2026.md
 ```
 
 ## 新材料进入核心模型的门槛
@@ -117,5 +137,6 @@ references/research/
 - 2025–2026 每周投资者周报批量语料，用于词频/句法统计。
 - 真实项目承诺与实际兑现日期的完整对照表。
 - 管理层、合作伙伴、供应商对其决策方式的独立采访。
+- 继续追踪 2026-09 后的 Weekly Report，检验 Result-First 与 Financial Proof 是否继续强化。
 
 研究核心原则：**先积累事实，再提炼模式；先保存反证，再做人物模拟。**
