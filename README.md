@@ -2,145 +2,144 @@
 
 一个基于贾跃亭长期公开材料，提炼其**表达结构、战略叙事、决策启发式与做事风格**的 AI Skill。
 
-> 目标不是做“贾跃亭语录生成器”，也不是玩网络梗，而是把 2014–2026 年公开可观察的长期模式整理成可验证、可推演、可复用、能被反证修正的人物 Skill。
+> 目标不是做“贾跃亭语录生成器”，也不是玩“为梦想窒息/下周回国”这类网络梗，而是把 **2012–2026** 年公开可观察的长期模式整理成可验证、可推演、可复用、能被反证修正的人物 Skill。
 
-## 当前版本：V0.5 — Corpus + Quantification
+## 当前阶段：Historical Core + Corpus Engineering
 
-V0.5 在 V0.4“证据 + 决策 + 张力”的基础上，正式加入**连续周报标注、量化指标规范和可复算分析工具**。
-
-```text
-公开原始材料
-→ 表达/概念结构
-→ 真实决策启发式
-→ 每个优势模型的对偶风险
-→ 连续语料标注
-→ 可复算量化统计
-```
-
-当前资料时间线更新至 **2026 年 8 月 30/31 日**。
-
-## 与普通“贾跃亭模仿 Prompt”的区别
-
-普通模板很容易写成：
-
-`梦想 + 生态 + 先行者 + 时间会证明 + 悲壮情绪`
-
-FFSKILL 要求：
+项目当前同时推进两条线：
 
 ```text
-事实准确
-> 稳定模式
-> 现实可执行性
-> 人物辨识度
-> 口头禅相似度
+历史源头线：2012–2017 国内乐视
+现代验证线：2025–2026 FF Weekly Report
 ```
 
-因此它不仅要“像”，还要知道：
+之前近年 FF 材料权重偏高。现在已重新平衡：**2012–2017 国内乐视时期被提升为核心母语料层**，尤其覆盖超级电视、超级手机、SEE 汽车、生态化反、硬件免费、为梦想窒息、海水与火焰和战略第二阶段。
 
-- 什么是本人真实说过的；
-- 什么只是长期模式；
-- 什么是基于模式做的新情境推演；
-- 什么只是计划、什么已经完成；
-- 哪些人物优势在什么条件下会反过来变成风险；
-- 哪些风格特征只是我们的直觉，哪些已经被连续语料支持。
+---
 
-## 三种使用方式
+# 为什么必须研究国内时期
 
-### 贾跃亭怎么看
-
-用其长期公开表现出的框架分析产品、商业模式、创业、行业趋势、危机与转型。
-
-### 贾跃亭会怎么干
-
-调用真实决策案例提炼出的启发式，分析：
-
-- 战略控制点；
-- 产品定义权；
-- 创始人/职业经理人分工；
-- 产品与制造双中心；
-- Lead User；
-- 组织重组；
-- 周报管理；
-- 交付与现金流聚焦。
-
-### 贾跃亭会怎么讲
-
-按照不同时期的真实结构重写表达，而不是简单加入“生态、颠覆、梦想”。
-
-现代默认结构：
+如果只看近两年，容易把贾跃亭误读成：
 
 ```text
-已发生结果
-→ 为什么重要
-→ 放入命名/编号框架
-→ 已验证 / 未验证
-→ 下一节点
-→ 长期意义
+S1–S7 + KPI + Weekly Report + EAI + 财务结果
 ```
 
-## 八个长期稳定模型
+但很多真正稳定的模式更早已经形成：
 
-1. **Future-Back** — 从未来终局倒推现在。
+- 2012：未来十年、激情、梦想、创造历史、团队/创新/执行。
+- 2013：超级电视不是单一硬件，而是大屏完整生态；多重盈利模式。
+- 2014：生态协同、垂直整合、产业链竞争、全球复制。
+- 2015：超级手机、苹果旧范式、时代选择、生态化反、为梦想窒息。
+- 2016 H1：无破界不生态、硬件免费、用未来定义未来再定义现在。
+- 2016 H2：海水与火焰，承认节奏过快、战线过长、资金与组织压力。
+- 2017：治理重构、专职 CEO、控制权与生态协同的取舍。
+
+因此 2015 的“为梦想窒息时代”不是突然出现，而是 2012–2014 的梦想文化、产业理论和硬件生态模式在手机发布会上达到传播峰值。
+
+---
+
+# 五阶段时期路由
+
+## 1. 2012–2014：源头形成期
+
+```text
+激情 / 梦想 / 创造历史 / 超级电视 / 垂直整合 / 生态协同 / 全球化
+```
+
+重点：未来大趋势 → 历史窗口 → 新产品形态 → 组织协同。
+
+## 2. 2015–2016 H1：超级手机 / “为梦想窒息”巅峰期
+
+```text
+时代选择 / 苹果旧范式 / 生态化反 / 破界 / 超级 / 硬件免费 / 疯狂 / 梦想
+```
+
+标准结构：
+
+```text
+时代变化
+→ 旧范式失效
+→ 新产业关系
+→ 给新范式命名
+→ 产品作为生态入口
+→ 用户价值/商业模式
+→ 回应质疑
+→ 使命/梦想
+```
+
+## 3. 2016 H2–2017：危机重构期
+
+```text
+海水与火焰 / 节奏过快 / 战线过长 / 聚焦 / 组织能力 / 现金流 / 第二阶段
+```
+
+重点：方向、路径、节奏、执行分层。
+
+## 4. 2017–2023：FF 新物种与长周期里程碑
+
+```text
+New Species / Third Internet Living Space / SOP / 下线 / 交付 / 共创
+```
+
+## 5. 2024–2026：Bridge / EAI / 结果化经营
+
+```text
+Bridge / EAI / KPI / S1–S7 / Weekly Report / Delivery / Compliance / Financial Proof
+```
+
+默认“现在的贾跃亭”使用第五阶段；明确说“超级手机/为梦想窒息时代”则使用第二阶段，不能只换几个词。
+
+---
+
+# 八个长期稳定模型
+
+1. **Future-Back** — 从未来终局倒推现在，至少可追溯到 2012 年公开员工信。
 2. **Boundary Breaking** — 找到旧产业/产品边界的重组机会。
-3. **Ecosystem Reaction** — 模块之间产生真实双向增益。
+3. **Ecosystem Reaction** — 模块之间必须产生真实双向增益。
 4. **Naming Creates Strategy** — 通过命名建立新的战略边界。
-5. **Numbered Architecture** — 用有限编号压缩复杂系统并持续复盘。
-6. **Founder-Led Product Definition** — 第一责任人掌握产品灵魂与用户价值。
-7. **Milestone as Proof** — 用工程/交付节点证明长期故事。
+5. **Numbered Architecture** — 从早期趋势清单/几个一定，到 S1–S7，跨十余年稳定。
+6. **Founder-Led Product Definition** — 创始人深度掌握产品灵魂、用户价值和关键体验。
+7. **Milestone as Proof** — 早期用产品/模式证明，FF 后更强调工程/交付证明。
 8. **Crisis Reframing** — 危机中区分终局、路径、节奏和执行问题。
 
-## 真实行动提炼出的 8 条决策启发式
+---
 
-- **H1 战略控制点优先**：关键系统控制能力有时高于短期融资便利。
-- **H2 CEO 可专业化，产品定义不轻易外包**。
-- **H3 产品定义与制造执行可拆成双中心**。
-- **H4 Founder Lead User + External User Validation**。
-- **H5 阻塞公司资源的个人/历史问题需要战略化处理**。
-- **H6 组织重组 = 角色 + 权责 + 目标 + 绩效 + 激励 + 文化**。
-- **H7 固定周报可以把内部管理机制外部化**。
-- **H8 出现偏差后优先回到交付、收入、现金流与主产品**。
+# 国内时期做事风格
 
-详见 `references/research/10-decision-heuristics.md`。
+基于员工信、长访谈、治理资料和第三方交叉观察，目前提炼：
 
-## 核心张力：人物优势不是无条件正确
+```text
+非常大的终局
+→ 创始人亲自定义
+→ 把新业务升级成关键战役
+→ 快速引入跨行业人才
+→ 组织围绕战略重构
+→ 高频协同/复盘
+→ 高压推进
+→ 现实问题出现后重新调整节奏
+```
 
-| 人物模型 | 同时检查 |
+同时强制保留对偶风险：
+
+| 能力 | 风险 |
 |---|---|
-| Future-Back | 现金、时间、工程路径 |
-| Ecosystem | 多线扩张是否稀释资源 |
-| Founder-Led | 治理、授权、专业边界 |
-| Founder Lead User | 是否有外部用户验证 |
-| Narrative Continuity | 是否有停止/证伪条件 |
-| Milestone | 是否把阶段节点误当业务结果 |
-| High Conviction | 未来事实是否保留条件语 |
+| Future-Back | 现金/工程约束被低估 |
+| 生态扩张 | 多战线同时消耗资源 |
+| Founder-Led | 创始人成为组织瓶颈 |
+| 战略驱动组织 | 组织学习速度追不上战略 |
+| 质疑重构 | 把反对意见都解释成“别人看不懂” |
+| 高信念 | 把愿景误当成结果 |
 
-2016 年本人对“节奏过快、战线过长、资源有限”的公开反思，与 2025 年再次回应“双飞轮/双桥会不会失焦”，使“生态协同 vs 资源聚焦”成为非常重要的跨时期张力。
+2016 年本人对节奏过快、战线过长的公开反思，是这一套模型必须保留的重要反证。
 
-详见 `references/research/14-core-tensions.md`。
+---
 
-## 时期路由
+# 现代 Weekly Report 量化
 
-### 2014–2016
+2025-05 至 2026-08 已人工标注 34 期代表性 Weekly Report：
 
-`时代选择 / 互联网革命 / 生态 / 破界 / 垂直整合 / 全球化 / 理想主义`
-
-### 2017–2023
-
-`新物种 / 产品定义 / 第三互联网生活空间 / SOP / 下线 / 交付 / 共创 / 工程里程碑`
-
-### 2024–2026
-
-`Bridge / EAI / Stockholders First / KPI / S1–S7 / Weekly Report / Delivery / Compliance / Data Flywheel / Financial Proof`
-
-默认“现在的贾跃亭”采用第三阶段，而不是只复刻早期“梦想 + 生态”。
-
-## V0.5：34 期 Weekly Report 人工标注
-
-目前已把 2025-05 至 2026-08 的 **34 期代表性 Weekly Report** 做成结构化标注表。
-
-第一版人工编码结果：
-
-| 特征 | 明显出现 Y | 弱/部分 P | 未观察 N |
+| 特征 | Y | P | N |
 |---|---:|---:|---:|
 | Result First | 22 | 10 | 2 |
 | Numbered Architecture | 30 | 4 | 0 |
@@ -151,86 +150,18 @@ FFSKILL 要求：
 | War Language | 5 | 9 | 20 |
 | Financial / Business Proof | 14 | 17 | 3 |
 
-因此目前最值得进入现代 Skill 默认权重的是：
-
-```text
-下一节点
-> 命名框架
-> 编号架构
-> V/C/M/O + 条件语
-> 当前结果 → 战略意义
-> 经营/交付/合规证明
-```
-
-而不是：
-
-```text
-战争语言
-悲壮叙事
-梦想口号
-```
-
-后面三类应按场景触发。
+目前结论：现代最稳定的是**下一节点、命名框架、编号架构、条件语、结果→战略意义**；战争语言和悲壮叙事应按场景触发。
 
 详见 `references/research/15-weekly-report-annotation-dataset.md`。
 
-## 可复算的量化规范
+---
 
-V0.5 新增 `references/research/16-quantitative-metrics-spec.md`，定义了：
+# V/C/M/O 事实状态机
 
-- I / we 第一人称密度；
-- High Conviction 确定性语言；
-- Conditionality 条件语；
-- Milestone / Next Event；
-- Financial / Business Proof；
-- War / Sprint 隐喻；
-- Reflection；
-- Naming；
-- Numbered Architecture；
-- `Result → Meaning → Next Milestone` 结构链；
-- `Not A, But B` 重定义句法。
-
-同时规定必须剔除重复的 Safe Harbor、公司介绍和联系人模板，避免上市公司法律文本污染人物语言统计。
-
-## 可运行分析工具
-
-新增：
-
-```text
-tools/analyze_corpus.py
-```
-
-纯 Python 标准库，无第三方依赖。输入 JSONL：
-
-```json
-{"id":"W001","date":"2025-05-04","period":"2025H1","type":"weekly","source":"...","text":"..."}
-```
-
-运行：
-
-```bash
-python tools/analyze_corpus.py data/weekly_corpus.jsonl \
-  --json-out reports/corpus-analysis.json \
-  --md-out reports/corpus-analysis.md
-```
-
-脚本会输出文章级指标、总体统计和分时期统计。
-
-仓库同时提供：
-
-- `data/weekly_corpus.example.jsonl` — 合成示例，不复制第三方完整讲话；
-- `tests/test_analyze_corpus.py` — 统计工具回归测试。
-
-当前 5 项单元测试已验证通过，覆盖：Safe Harbor 截断、条件语、编号结构、结果→意义→下一节点、战争语言独立性。
-
-## V/C/M/O 事实状态机
-
-所有项目状态强制区分：
-
-- **V — Vision**：愿景；
-- **C — Commitment / Target**：计划、目标、预计；
-- **M — Milestone**：已经完成的阶段节点；
-- **O — Outcome**：用户/业务已经获得的真实结果。
+- **V — Vision**：愿景。
+- **C — Commitment / Target**：计划、目标、预计。
+- **M — Milestone**：已经完成的阶段节点。
+- **O — Outcome**：真实用户/业务结果。
 
 ```text
 计划量产 ≠ 已量产
@@ -239,106 +170,113 @@ python tools/analyze_corpus.py data/weekly_corpus.jsonl \
 签合作框架 ≠ 已产生收入
 ```
 
-## 概念谱系
+即使模拟 2015 年高确定性发布会口吻，这条事实规则也不能取消。
 
-词汇一直在变，但“重新命名跨界关系”的功能高度连续：
+---
 
-```text
-2014–2016
-生态 / 生态化反 / 破界
-
-2017–2023
-New Species / Third Internet Living Space / Co-Creation
-
-2024–2025
-Bridge / Flywheel / EAI / Dual...
-
-2026
-One Brain Multiple Forms / Data Factory / Device-Data-Brain / RoboShare
-```
-
-详见 `references/research/12-concept-genealogy-and-rhetoric.md`。
-
-## 找到的现有开源参考
-
-检索到 `zhanpengumich/jia-yueting-skill`。
-
-它的优势是 Trigger、Agentic Protocol、角色表现力和 Few-shot 都很明确，也单独讨论“内在张力/诚实边界”。
-
-但它也展示了强角色模板的典型风险：网络梗容易被当成本人事实、“永远不会承认战略错误”类绝对规则不可证伪、情绪叙事容易压过事实状态、第一人称扮演容易把推演写成真实经历。
-
-FFSKILL 借鉴它的组织方式，但不照搬这些事实风险。
-
-详见 `references/research/13-existing-skill-review.md`。
-
-## 仓库结构
+# 关键历史研究文件
 
 ```text
-FFSKILL/
-├─ SKILL.md
-├─ README.md
-├─ data/
-│  └─ weekly_corpus.example.jsonl
-├─ tools/
-│  └─ analyze_corpus.py
-├─ references/
-│  ├─ methodology.md
-│  ├─ evidence-rules.md
-│  ├─ expression-dna.md
-│  ├─ thinking-models.md
-│  ├─ source-index.md
-│  ├─ timeline.md
-│  └─ research/
-│     ├─ 01-leeco-era.md
-│     ├─ 02-ff-2017-2023.md
-│     ├─ 03-ff-2024-2026.md
-│     ├─ 04-external-observations.md
-│     ├─ 05-pattern-evidence-matrix.md
-│     ├─ 06-promise-outcome-cases.md
-│     ├─ 07-language-corpus.md
-│     ├─ 08-weekly-updates-jul-aug-2026.md
-│     ├─ 09-pilot-quantitative-analysis.md
-│     ├─ 10-decision-heuristics.md
-│     ├─ 11-expanded-weekly-sample.md
-│     ├─ 12-concept-genealogy-and-rhetoric.md
-│     ├─ 13-existing-skill-review.md
-│     ├─ 14-core-tensions.md
-│     ├─ 15-weekly-report-annotation-dataset.md
-│     └─ 16-quantitative-metrics-spec.md
-└─ tests/
-   ├─ fidelity-tests.md
-   ├─ modern-weekly-tests.md
-   └─ test_analyze_corpus.py
+references/research/
+├─ 20-leeco-domestic-era-2014-2017.md      # 国内时期一手资料地图
+├─ 21-leeco-era-expression-dna.md          # 超级手机/为梦想窒息表达 DNA
+├─ 22-leeco-era-management-style.md        # 国内时期做事与管理风格
+├─ 23-historical-video-catalog.md          # 完整发布会/演讲视频目录
+└─ 24-pre-phone-origins-2012-2014.md       # 手机时代前史
 ```
 
-## 研究原则
+同时保留：
+
+- `05-pattern-evidence-matrix.md` — 稳定模式证据矩阵。
+- `06-promise-outcome-cases.md` — 承诺与结果。
+- `10-decision-heuristics.md` — 真实行动启发式。
+- `12-concept-genealogy-and-rhetoric.md` — 概念谱系。
+- `14-core-tensions.md` — 核心张力。
+- `15-weekly-report-annotation-dataset.md` — 现代周报标注。
+- `16-quantitative-metrics-spec.md` — 语料量化规范。
+
+---
+
+# 历史视频研究
+
+目前已建立优先目录：
+
+- 2015-04-14 第一代乐视超级手机完整发布会；
+- 2015-10-27 乐1s/uMax120 杀手级新品发布会；
+- 2016-04-20 “无破界不生态”发布会；
+- 2016 乐视生态全球年会；
+- 2016 中国企业领袖年会 Dream On and All In；
+- 2017 FF91/CES 演讲。
+
+后续研究不只统计文字，还会观察：
+
+- 产品参数 vs 战略叙事时间占比；
+- 情绪峰值；
+- 停顿和重复；
+- 竞争对象如何进入 PPT；
+- 新概念出现位置；
+- 梦想/使命是在什么语境触发。
+
+详见 `references/research/23-historical-video-catalog.md`。
+
+---
+
+# 可运行语料工具
+
+```text
+tools/analyze_corpus.py
+```
+
+用于统计：第一人称、确定性语言、条件语、里程碑词、经营结果、战争隐喻、反思、命名、编号架构等。
+
+仓库已配置 GitHub Actions 自动运行语法检查、单元测试和合成语料分析。
+
+---
+
+# 测试体系
+
+```text
+tests/
+├─ fidelity-tests.md
+├─ modern-weekly-tests.md
+├─ leeco-era-tests.md
+└─ test_analyze_corpus.py
+```
+
+`leeco-era-tests.md` 专门检查：
+
+- 2015 和 2026 是否真的结构不同；
+- “为梦想窒息”是否被滥用；
+- 质疑是否被错误当成正确性证明；
+- “生态专注”是否有真实双向增益；
+- 是否把所有业务都叫 All-In 关键战役。
+
+---
+
+# 研究原则
 
 一个结论进入核心 Skill 前优先检查：
 
 1. 是否跨时间重复；
 2. 是否跨场景重复；
 3. 是否能够推演新问题；
-4. 是否具有足够人物区分度；
+4. 是否具有人物区分度；
 5. 语言和实际行动是否互相支持；
 6. 是否存在反例或时期变化；
 7. 是否分清计划和结果；
-8. 对应优势是否同时检查了反作用；
-9. 人工直觉是否能被语料统计复核。
+8. 是否同时检查该优势的反作用；
+9. 能否被语料/历史事件继续验证或推翻。
 
-人物 Skill 蒸馏方法参考 `alchaincyf/nuwa-skill`，并针对贾跃亭增加了承诺结果状态机、时期路由、真实决策记录、核心张力、上市公司条件语言、周报结构编码和可复算量化工具。
+当前研究权重原则：
 
-## 下一阶段：V0.6
+```text
+2012–2017 国内乐视源头
+≈ 2017–2023 FF 长周期
+≈ 2024–2026 现代经营演化
+```
 
-重点从“人工标注”继续升级到“正文语料统计”：
-
-- 将 30–50 期以上周报按统一 JSONL Schema 整理；
-- 优先使用用户拥有权限或可合法处理的正文，不在公共仓库大规模复制第三方受版权保护全文；
-- 自动生成 2025H1 / 2025H2 / 2026H1 / 2026H2 对比报告；
-- 检验 `Next Milestone > 80%`、`Numbered Architecture > 70%` 等可证伪假设；
-- 建“承诺 → 变更 → 实际兑现日期”结构化数据库；
-- 增加 2015 vs 2026 Contrast-shot；
-- 用陌生项目做盲测，检查删掉姓名后是否仍能认出人物模型。
+不能因为近年材料更容易获得，就让近两年的公开话术覆盖人物十余年的真实演化。
 
 ## 免责声明
 
-本项目用于人物公开表达研究、写作结构研究与思维框架分析，不代表贾跃亭本人观点，也不与贾跃亭、Faraday Future、乐视或相关主体存在官方关联。
+本项目用于人物公开表达、战略叙事和行为模式研究，不代表贾跃亭本人观点，也不与贾跃亭、乐视、Faraday Future 或相关主体存在官方关联。
